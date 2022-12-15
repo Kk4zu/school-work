@@ -1,0 +1,81 @@
+/* Tämä web-sivu on määritelty mobile first ( = mobiili on näkymistä tärkein => 
+mobiilinäkymä määritellään ensin => 
+muut näkymät määritellään media query- sääntöjen avulla ) */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+    background-color: lightsalmon;
+    color: darkmagenta;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-block-end: 1rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+.mobiili, .tablet, .desktop{
+    padding: 1rem;
+    display: inline-block;
+    margin-block-start: -1rem;
+    margin-inline-start: -1rem;
+
+}
+
+.mobiili {
+    background-color: darkmagenta;
+    color: lightsalmon;
+    margin-block-end: 1rem;
+    padding: 1rem;
+    display: inline-block;
+    margin-block-start: -1rem;
+    margin-inline-start: -1rem;
+}
+
+.tablet {
+    color: darkolivegreen;
+    background-color: blanchedalmond;
+    display: none;
+}
+
+.desktop {
+    color: lemonchiffon;
+    background-color: darkgoldenrod;
+    display: none;
+}
+
+/* Tabletti-näkymän css-säännöt */
+@media only screen and (min-width: 426px) {
+    body {
+      background-color: darkolivegreen;
+      color: blanchedalmond;
+    }
+    .mobiili {
+        display: none;
+    }
+    .tablet {
+        display: inline-block;
+    }
+
+  }
+/* Desktop-näkymän css-säännöt */
+@media only screen and (min-width: 769px) {
+    body {
+      background-color: lemonchiffon;
+      color: darkgoldenrod;
+    }
+    .tablet {
+        display: none;
+    }
+    .desktop {
+        display: inline-block;
+    }
+  }
+  

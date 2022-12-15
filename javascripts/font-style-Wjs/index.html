@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font style with javascript</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Grenze&family=Roboto:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Turret+Road&display=swap');
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Change Font style with javascript</h1>
+    <p>
+      Attention! All changes happen with javascript. List font style are changed
+      pushin the button. List supposition font style is "Courier New" font size is 16px.
+    </p>
+    <p>But what happens when you press the button 10 times?</p>
+    <h2>Change the font style of this list by pressing the button.</h2>
+    <ol id="demo">
+      <li>First press of the button changes font style to "Roboto"</li>
+      <li>Second press of the button changes font style to "Manslava"</li>
+      <li>Third press of the button changes font style to "Grenze"</li>
+      <li>Fourth press of the button changes font style to "Turret Road"</li>
+      <li>Fifth press of the button changes font style to "Courier New"</li>
+    </ol>
+    <button type="button" onclick="myFunction()">font style</button>
+    <footer id="result">Font style now: "Courier New"</footer>
+    <script src="./jscripts/fontstyle.js"></script>
+  </body>
+</html>

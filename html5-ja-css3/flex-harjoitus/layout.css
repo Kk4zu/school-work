@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkcyan;
+    padding: 1rem;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.wrapper > * {
+    padding: 1rem;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+.header {
+    background-color: gold;
+}
+.main {
+    background-color: darkorange;
+}
+.aside-1 {
+    background-color: mediumseagreen;
+}
+.aside-2 {
+    background-color: seagreen;
+}
+.footer {
+    background-color: lightgreen;
+}
+
+@media only screen and (min-width: 425px) {
+    body {
+      background-color: lightblue;
+    }
+  } 
+
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }

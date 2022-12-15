@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    padding: 1rem;
+
+}
+header {
+    border: dotted;
+    border-bottom: none;
+    padding: 1rem;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+p {
+    font-size: 1.5rem;
+}
+#rinnakkain {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#rinnakkain >* {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+figure {
+    display: block;
+}
+figure img {
+    max-width: 100%;
+}
+section {
+    border: dotted;
+    padding: 1rem;
+    border-bottom: none;
+}
+footer {
+    padding: 1rem;
+    border: dotted;
+}

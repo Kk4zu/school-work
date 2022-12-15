@@ -1,0 +1,44 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+  padding: 1rem;
+  color: white;
+}
+header {
+    background-color: #DF1428;
+}
+nav {
+    background-color: #F38F2D;
+    padding: 1rem;
+    color: white;
+}
+section {
+    background-color: #FFC000;
+    padding-bottom: 1rem;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;  /*  elementin leveydessä mukana myös padding ja margin --> 50% ei mene rikki */
+    padding-block-end: 1rem;
+}
+section article {
+    background-color: #7AC141;
+    margin-block-start: 1rem;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+}
+aside {
+    background-color: #026FB4;
+    float: right;
+    width: 50%;
+    padding: 1px;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #932B8E;
+    clear: both;
+}

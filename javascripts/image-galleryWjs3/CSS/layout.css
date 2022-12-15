@@ -1,0 +1,40 @@
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-stretch: expanded;
+    font-family: sans-serif;
+    letter-spacing: 1rem;
+    opacity: 0.2;
+    margin-bottom: 1rem;
+}
+div {
+    background-color: lightgray;
+    padding: 1rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-inline-start: -1rem;
+    margin-top: -1rem;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    
+}
+#placeholder {
+    border: 10px solid white;
+}
+p {
+    padding: 1rem;
+    margin-inline-start: -1rem;
+    margin-bottom: -0.5rem;
+}
